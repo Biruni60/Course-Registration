@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { FaDollarSign } from 'react-icons/fa'
 import { FaRegBookmark} from 'react-icons/fa'
 
-const Course = ({course}) => {
+const Course = ({course,addBookmark}) => {
     const{title,description,course_cover_img,price,credit_hour}=course;
    
     return (
@@ -19,7 +19,7 @@ const Course = ({course}) => {
         <p className='flex items-center'><FaRegBookmark className='text-black'></FaRegBookmark>Credit:{credit_hour} hr</p>
     </div>
     <div className="card-actions">
-      <button className="btn btn-primary w-full">Select</button>
+      <button onClick={()=>addBookmark(course)} className="btn btn-primary w-full">Select</button>
     </div>
   </div>
 </div>   
@@ -27,6 +27,7 @@ const Course = ({course}) => {
     );
 };
 Course.propTypes={
-    course: PropTypes.object.isRequired
+    course: PropTypes.object.isRequired,
+    addBookmark: PropTypes.func
 }
 export default Course;
