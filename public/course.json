@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "course_cover_img": "https://i.ibb.co/Ltp4MFN/cover1.jpg",
+      "title": "Introduction to Python Programming",
+      "description": "Learn the fundamentals of Python programming in this beginner-friendly course. Explore topics such as variables, loops, and functions.",
+      "price": 49.99,
+      "credit_hour": 3
+    },
+    {
+      "id": 2,
+      "course_cover_img": "https://i.ibb.co/z7bwj4B/cover2.jpg",
+      "title": "Web Development with HTML, CSS, and JavaScript",
+      "description": "Build your first website with HTML, CSS, and JavaScript. Gain hands-on experience in front-end web development.",
+      "price": 59.99,
+      "credit_hour": 4
+    },
+    {
+      "id": 3,
+      "course_cover_img": "https://i.ibb.co/khwZswJ/cover3.jpg",
+      "title": "Java Programming Masterclass",
+      "description": "Take your Java skills to the next level with this comprehensive masterclass. Cover advanced topics like multithreading and data structures.",
+      "price": 79.99,
+      "credit_hour": 5
+    },
+    {
+      "id": 4,
+      "course_cover_img": "https://i.ibb.co/3S3JW7M/cover4.jpg",
+      "title": "Machine Learning and Data Science",
+      "description": "Delve into the world of data science and machine learning. Learn to analyze data, build predictive models, and make data-driven decisions.",
+      "price": 99.99,
+      "credit_hour": 6
+    },
+    {
+      "id": 5,
+      "course_cover_img": "https://i.ibb.co/89LdJT0/cover5.jpg",
+      "title": "C# Game Development with Unity",
+      "description": "Create your own games with C# and Unity game engine. Develop 2D and 3D games and bring your ideas to life.",
+      "price": 69.99,
+      "credit_hour": 4
+    },
+    {
+      "id": 6,
+      "course_cover_img": "https://i.ibb.co/b1MMFjF/cover6.jpg",
+      "title": "React.js Front-End Development",
+      "description": "Become a proficient front-end developer with React.js. Build interactive user interfaces and single-page applications.",
+      "price": 59.99,
+      "credit_hour": 4
+    },
+    {
+      "id": 7,
+      "course_cover_img": "https://i.ibb.co/X4fKpkG/cover7.jpg",
+      "title": "iOS App Development with Swift",
+      "description": "Learn to create iOS apps using the Swift programming language. Develop apps for iPhones and iPads.",
+      "price": 79.99,
+      "credit_hour": 5
+    },
+    {
+      "id": 8,
+      "course_cover_img": "https://i.ibb.co/w747qnt/cover8.jpg",
+      "title": "Database Design and SQL Fundamentals",
+      "description": "Master the art of database design and SQL programming. Build efficient, scalable databases and query data like a pro.",
+      "price": 49.99,
+      "credit_hour": 3
+    },
+    {
+      "id": 9,
+      "course_cover_img": "https://i.ibb.co/jvpzvdc/cover9.jpg",
+      "title": "DevOps Essentials: CI/CD and Containerization",
+      "description": "Learn essential DevOps practices including continuous integration, continuous delivery, and containerization with Docker.",
+      "price": 69.99,
+      "credit_hour": 4
+    }
+  ]
+  
