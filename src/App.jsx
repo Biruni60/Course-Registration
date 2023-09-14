@@ -10,7 +10,7 @@ function App() {
     <>
      <div className='max-w-screen-xl mx-auto'>
       <Header></Header>
-      <div>
+      <div className='md:flex gap-2'>
         <Courses></Courses>
         <Bookmarks></Bookmarks>
       </div>
